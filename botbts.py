@@ -106,20 +106,20 @@ while True:
 
             if hay_boletos(r.text):
 
-                mensaje = f"""🚨 BTS ALERTA 🚨 🔥 POSIBLE BOLETO DISPONIBLE 🔥 {URL}
+                mensaje = f""" BTS ALERTA  POSIBLE BOLETO DISPONIBLE  {URL}
 """
                 
 
                 telegram(mensaje)
                 correo(mensaje)
 
-                print("🚨 BOLETOS DETECTADOS 🚨")
+                print(" BOLETOS DETECTADOS ")
 
                 time.sleep(300)
 
-        print("⏳ esperando...")
+        print("esperando...")
         time.sleep(20)
 
     except Exception as e:
-        print("❌ Error general:", e)
+        print(" Error general:", e)
         time.sleep(60)
