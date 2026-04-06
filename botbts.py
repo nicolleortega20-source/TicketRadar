@@ -3,7 +3,7 @@ import requests
 import smtplib
 
 from email.mime.text import MIMEText
-TOKEN = "8592971978:AAHhlfS6CEblCKYRki4CYWoukngl6Kw7hMU"
+TOKEN = ""
 
 CHAT_IDS = [
 # ID TELEGRAM
